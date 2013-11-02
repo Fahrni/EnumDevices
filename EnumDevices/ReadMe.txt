@@ -22,7 +22,7 @@ EnumDevices.cpp
 	static void EnumDevices()
 	{
         	// Create or get an existing system
-        	PelcoSDK::System system("admin:admin@pelcosystem://10.221.224.36:60001?alias=Clovis");
+        	PelcoSDK::System system("admin:admin@pelcosystem://[insert your ip and port here]?alias=Enum Devices Sample System");
 
  	       // Get the Device Collection from the system
         	PelcoSDK::DeviceCollection devices(system.GetDeviceCollection());
